@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header.js';
-import Search from './components/Searchbar.js';
-import Table from './components/Table.js';
+import Search from './components/Search.js';
+import EmployeeTable from './components/EmployeeTable.js';
 
 import './App.css';
 
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header />
       <Search /> 
-      <Table />
+      <EmployeeTable />
     </div>
 
   );
